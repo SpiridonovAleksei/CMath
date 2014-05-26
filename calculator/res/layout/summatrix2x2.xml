@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner" android:layout_gravity="center"/>
+
+    <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_gravity="center">
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:id="@+id/txt11" android:layout_column="0"
+                    />
+            <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:id="@+id/txt12" android:layout_column="2"/>
+
+            <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:id="@+id/t11" android:layout_column="0"
+                    />
+            <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:id="@+id/t12" android:layout_column="2"/>
+
+
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:id="@+id/txt21" android:layout_column="0"/>
+
+            <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:id="@+id/txt22" android:layout_column="2"/>
+
+            <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:id="@+id/t21" android:layout_column="0"
+                    />
+            <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:id="@+id/t22" android:layout_column="2"/>
+
+        </TableRow>
+
+    </TableLayout>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Посчитать"
+            android:id="@+id/result"/>
+
+</LinearLayout>

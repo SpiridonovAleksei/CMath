@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">calculator</string>
+    <string name="SquareEquation">Квадратное уравнение</string>
+    <string name="MainCalculator">Калькулятор</string>
+    <string name="BiquadraticEquation">Биквадратное уравнение</string>
+    <string name="Matrix">Матрица 2x2</string>
+    <string name="Matrix1">Матрица 3x3</string>
+    <string name="Matrix2">Матрица 4x4</string>
+    <string name="Matrix3">Сумма Матрицы 2x2</string>
+    <string name="Matrix4">Сумма Матрицы 3x3</string>
+    <string name="Surface">Поверхности второго порядка</string>
+    <string name="EquationOfTheLine">Уравнение прямой, проходящей через точку</string>
+</resources>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="com.example.calculator"
+          android:versionCode="1"
+          android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="10"/>
+    <application android:label="@string/app_name">
+        <activity android:name="MyActivity"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainCalculator"
+                  android:label="@string/MainCalculator"/>
+        <activity android:name=".SquareEquation"
+                  android:label="@string/SquareEquation" />
+        <activity android:name=".BiquadraticEquation"
+                  android:label="@string/BiquadraticEquation" />
+        <activity android:name=".Matrix2x2"
+                  android:label="@string/Matrix" />
+        <activity android:name=".Matrix3x3"
+                  android:label="@string/Matrix1" />
+        <activity android:name=".Matrix4x4"
+                  android:label="@string/Matrix2" />
+        <activity android:name=".SumMatrix2x2"
+                  android:label="@string/Matrix3" />
+        <activity android:name=".SumMatrixRes2x2"
+                  android:label="@string/Matrix3" />
+        <activity android:name=".SumMatrixRes3x3"
+                  android:label="@string/Matrix4" />
+        <activity android:name=".SumMatrix3x3"
+                  android:label="@string/Matrix4" />
+        <activity android:name=".SumMatrix4x4"
+                  android:label="@string/Matrix4" />
+        <activity android:name=".SumMatrixRes4x4"
+                  android:label="@string/Matrix4" />
+        <activity android:name=".Surface"
+                  android:label="@string/Surface" />
+        <activity android:name=".EquationOfTheLine"
+                  android:label="@string/EquationOfTheLine" />
+    </application>
+</manifest> 

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Калькуляторы"
+            />
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Калькулятор"
+            android:id="@+id/MainCalculator"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Квадратный уравнение"
+            android:id="@+id/SquareEquation"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Биквадратное уравнение"
+            android:id="@+id/BiquadraticEquation"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Матрицы(определитель) "
+            android:id="@+id/Matrix"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Матрицы(сумма) "
+            android:id="@+id/SumMatrix"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Поверхности второго порядка"
+            android:id="@+id/Surface"/>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Уравнение прямой, проходящей через точку"
+            android:id="@+id/EquationOfTheLine"/>
+
+</LinearLayout>
+

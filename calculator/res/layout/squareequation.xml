@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_gravity="left|center_vertical">
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+    <EditText
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/x2"
+            android:inputType="number"/>
+     <TextView
+            android:text="x^2 + "/>
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/x"
+            android:inputType="number"/>
+        <TextView
+                android:text="x + "/>
+    <EditText
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/c"
+            android:inputType="number"/>
+        <TextView
+                android:text="=0"/>
+    </TableRow>
+    </TableLayout>
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:id="@+id/result"
+            android:text="Посчитать"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="62dp"
+        android:id = "@+id/res"/>
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:id = "@+id/res3"/>
+
+
+</LinearLayout>

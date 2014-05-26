@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_gravity="left|center_vertical">
+    <TableRow
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+    <EditText
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/txt11"
+        />
+        <TextView
+                android:text="x^2 + "/>
+
+    <EditText
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/txt12"
+            />
+        <TextView
+                android:text="xy+ "/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/txt13"
+            />
+        <TextView
+                android:text="xz + "/>
+    <EditText
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/txt22"
+            />
+        <TextView
+                android:text="y^2 + "/>
+    <EditText
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/txt23"
+            />
+        <TextView
+                android:text="yz + "/>
+      </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+        <EditText
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/txt33"
+            />
+            <TextView
+                    android:text="z^2 + "/>
+    <EditText
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/txt10"
+            />
+            <TextView
+                    android:text="x + "/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <EditText
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/txt20"
+            />
+            <TextView
+                    android:text="y + "/>
+    <EditText
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/txt30"
+            />
+            <TextView
+                    android:text="z + "/>
+    <EditText
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:id="@+id/txt00"
+            />
+            <TextView
+                    android:text="=0 "/>
+    </TableRow>
+    </TableLayout>
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Посчитать"
+            android:id="@+id/result"/>
+    <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtresult"/>
+
+</LinearLayout>

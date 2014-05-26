@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner" android:layout_gravity="center"/>
+
+
+    <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" android:layout_gravity="left|center_vertical">
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:id="@+id/a11" android:layout_column="0"
+                    />
+            <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:id="@+id/a12" android:layout_column="2"/>
+            <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:id="@+id/a13" android:layout_column="3"/>
+            <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:id="@+id/b11" android:layout_column="5"
+                    />
+            <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:id="@+id/b12" android:layout_column="6"/>
+            <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:id="@+id/b13" android:layout_column="7"/>
+
+        </TableRow>
+
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:id="@+id/a21" android:layout_column="0"/>
+            <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:id="@+id/a22" android:layout_column="2"/>
+            <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:id="@+id/a23" android:layout_column="3"/>
+
+            <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:id="@+id/b21" android:layout_column="5"
+                    />
+            <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:id="@+id/b22" android:layout_column="6"/>
+            <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:id="@+id/b23" android:layout_column="7"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+            <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:id="@+id/a31" android:layout_column="0"/>
+            <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:id="@+id/a32" android:layout_column="2"/>
+            <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:id="@+id/a33" android:layout_column="3"/>
+
+            <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:id="@+id/b31" android:layout_column="5"
+                    />
+            <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:id="@+id/b32" android:layout_column="6"/>
+            <EditText
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:inputType="number"
+                    android:id="@+id/b33" android:layout_column="7"/>
+        </TableRow>
+
+    </TableLayout>
+
+    <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Посчитать"
+            android:id="@+id/result"/>
+
+</LinearLayout>
