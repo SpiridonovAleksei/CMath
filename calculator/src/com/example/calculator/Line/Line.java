@@ -16,4 +16,8 @@ public class Line {
         int r = eq.get(2)*(-eq.get(0)) + eq.get(3)*(-eq.get(1));
         return r < 0 ? eq.get(2) + "x" + eq.get(3) + "y" + "-" + r + "=0" : eq.get(2) + "x" + eq.get(3) + "y" + "+" + r + "=0";
     }
+
+    public int some() {
+        return 0;
+    }
 }
